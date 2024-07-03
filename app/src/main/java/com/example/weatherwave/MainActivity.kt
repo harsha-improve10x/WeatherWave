@@ -19,9 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             WeatherWaveTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                }
+               
             }
         }
     }
