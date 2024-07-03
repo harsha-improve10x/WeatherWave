@@ -156,7 +156,7 @@ fun WeatherDetails(data: WeatherModel) {
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceAround
                 ) {
-                   WeatherKeyValue(key = "Local Time", value = data.location.localtime + "°C")
+                   WeatherKeyValue(key = "Local Time", value = data.location.localtime + "UTC")
                 }
             }
         }
